@@ -7,6 +7,17 @@ for car in cars:
 
 
 
+letters = 'ЫгВЫоЯСремДШНККАыкЩЙФа' # строку состоящую из русских букв разных регистров, необходимо  очистить от заглавных литер. 
+clean_string = ''
+for letter in letters:
+    if not letter.isupper():
+        clean_string += letter
+letters = clean_string
+print(letters)
+
+
+
+
 
 # list_ = ['one', 'two', 'three', 'four']
 # for i in list_:
